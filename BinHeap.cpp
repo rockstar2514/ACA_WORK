@@ -34,7 +34,7 @@ void BHeap::deleteMin(){
           heapifydown(0);
 	}
 }
-void BHeap::ExtractMin(){if(heap.size()==0){cout<<"Bhak MC";}else{return heap.front();}}
+void BHeap::ExtractMin(){if(heap.size()==0){cout<<"Bhak **";}else{return heap.front();}}
 void BHeap::showHeap(){
 	vector < ll>::iterator pos=heap.begin();
 	while(pos!=heap.end())
